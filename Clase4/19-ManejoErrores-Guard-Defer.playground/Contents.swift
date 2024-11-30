@@ -47,7 +47,7 @@ func realizarTransaccion() {
     }
     
     do {
-        try transaccion.transferirFondos(de: "Cuenta123", a: "", monto: 200.00)
+        try transaccion.transferirFondos(de: "Cuenta123", a: "Cuenta", monto: 0)
         transaccion.confirmar()
     } catch TransaccionError.montoInvalido {
         print("Error: El monto debe ser mayor a 0.")
