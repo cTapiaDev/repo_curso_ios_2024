@@ -5,3 +5,4 @@
 - [Clase 5 - Closures & Programación Asíncrona](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase5)
 - [Clase 6 - UIKit; Constraints & Navigation](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase6)
 - [Clase 7 - NavigationBar, StackView, ScrollView, TableView, CollectionView & Ciclo de Vida UIKit](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase7)
+- [Clase 8 - SwiftUI: Componentes gráficos](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase8)
