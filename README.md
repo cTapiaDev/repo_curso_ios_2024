@@ -9,3 +9,4 @@
 - [Clase 9 - HikeApp - Animaciones](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase9)
 - [Clase 10 - ParallaxApp - Animaciones && AppStorage](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase10/ParallaxApp)
 - [Clase 11 - Ciclo de Vida SwiftUI & Manejo de estados](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase11)
+- [Clase 12 - UserDefaults, CoreData](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase12)
