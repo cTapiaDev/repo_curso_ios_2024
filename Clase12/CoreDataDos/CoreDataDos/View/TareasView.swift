@@ -19,9 +19,11 @@ struct TareasView: View {
         VStack {
             List {
                 ForEach(tareas.wrappedValue) { tarea in
-                    VStack (alignment: .leading) {
-                        Text(tarea.tarea ?? "")
-                            .font(.title2)
+                    NavigationLink(destination: FotoView(tarea: tarea)) {
+                        VStack (alignment: .leading) {
+                            Text(tarea.tarea ?? "")
+                                .font(.title2)
+                        }
                     }
                 }
             }
