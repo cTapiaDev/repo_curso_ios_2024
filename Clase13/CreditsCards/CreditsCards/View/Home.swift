@@ -21,7 +21,7 @@ struct Home: View {
                         }
                         .contextMenu {
                             Button {
-                                card.senditem(item: item)
+                                card.sendItem(item: item, modal: "edit")
                             } label: {
                                 Label("Edit", systemImage: "pencil")
                             }
@@ -31,7 +31,7 @@ struct Home: View {
                                 Label("Copy", systemImage: "doc.on.doc")
                             }
                             Button(role: .destructive) {
-                                print("Delete")
+                                card.sendItem(item: item, modal: "delete")
                             } label: {
                                 Label("Delete", systemImage: "trash")
                             }
@@ -50,6 +50,11 @@ struct Home: View {
             }
             .sheet(isPresented: $card.addCardView){
                 AddCardView(cards: card)
+                    .presentationDetents([.medium])
+            }
+            .sheet(isPresented: $card.showDelete) {
+                DeleteCardView(cards: card)
+                    .presentationDetents([.medium])
             }
             .navigationTitle("Credit Cards")
         }
