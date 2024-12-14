@@ -18,7 +18,7 @@ struct AddCardView: View {
             LinearGradient(gradient: Gradient(colors: [.orange, .red]), startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Add credit card")
+                Text(cards.updateItem == nil ? "Add credit card" : "Edit credit card")
                     .font(.title)
                     .foregroundColor(.white)
                     .bold()
@@ -38,15 +38,25 @@ struct AddCardView: View {
                 .pickerStyle(.segmented)
                 
                 Button {
-                    cards.saveCard(context: context) { done in
-                        if done {
-                            cards.addCardView.toggle()
-                        } else {
-                            error.toggle()
+                    if cards.updateItem == nil {
+                        cards.saveCard(context: context) { done in
+                            if done {
+                                cards.addCardView.toggle()
+                            } else {
+                                error.toggle()
+                            }
+                        }
+                    } else {
+                        cards.editCard(context: context) { done in
+                            if done {
+                                cards.addCardView.toggle()
+                            } else {
+                                error.toggle()
+                            }
                         }
                     }
                 } label: {
-                    Text("Save Card")
+                    Text(cards.updateItem == nil ? "Save Card" : "Edit Card")
                         .font(.title3)
                         .foregroundColor(.black)
                         .bold()
@@ -60,5 +70,11 @@ struct AddCardView: View {
                 Button("OK", role: .cancel) {}
             }
         }
-    }
+        .onDisappear {
+            cards.name = ""
+            cards.type = ""
+            cards.credit = ""
+            cards.number = ""
+        }
+     }
 }
