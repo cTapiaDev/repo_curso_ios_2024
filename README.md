@@ -11,3 +11,5 @@
 - [Clase 11 - Ciclo de Vida SwiftUI & Manejo de estados](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase11)
 - [Clase 12 - UserDefaults, CoreData](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase12)
 - [Clase 13 - CreditsCards](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase13/CreditsCards)
+- [Clase 14 - API](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase14)
+- [Clase 15 - MovieApp](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase15/MoviesAPI)
