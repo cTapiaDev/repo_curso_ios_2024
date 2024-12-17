@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FD42BE922D0CF507005D9769 /* MoviesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7240642D10DFD500E5461F /* ListaComprasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaComprasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FD42BE942D0CF507005D9769 /* MoviesAPI */ = {
+		FD7240662D10DFD500E5461F /* ListaComprasApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoviesAPI;
+			path = ListaComprasApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD42BE8F2D0CF507005D9769 /* Frameworks */ = {
+		FD7240612D10DFD500E5461F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD42BE892D0CF507005D9769 = {
+		FD72405B2D10DFD500E5461F = {
 			isa = PBXGroup;
 			children = (
-				FD42BE942D0CF507005D9769 /* MoviesAPI */,
-				FD42BE932D0CF507005D9769 /* Products */,
+				FD7240662D10DFD500E5461F /* ListaComprasApp */,
+				FD7240652D10DFD500E5461F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD42BE932D0CF507005D9769 /* Products */ = {
+		FD7240652D10DFD500E5461F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD42BE922D0CF507005D9769 /* MoviesAPI.app */,
+				FD7240642D10DFD500E5461F /* ListaComprasApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD42BE912D0CF507005D9769 /* MoviesAPI */ = {
+		FD7240632D10DFD500E5461F /* ListaComprasApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD42BEA02D0CF509005D9769 /* Build configuration list for PBXNativeTarget "MoviesAPI" */;
+			buildConfigurationList = FD7240722D10DFD600E5461F /* Build configuration list for PBXNativeTarget "ListaComprasApp" */;
 			buildPhases = (
-				FD42BE8E2D0CF507005D9769 /* Sources */,
-				FD42BE8F2D0CF507005D9769 /* Frameworks */,
-				FD42BE902D0CF507005D9769 /* Resources */,
+				FD7240602D10DFD500E5461F /* Sources */,
+				FD7240612D10DFD500E5461F /* Frameworks */,
+				FD7240622D10DFD500E5461F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FD42BE942D0CF507005D9769 /* MoviesAPI */,
+				FD7240662D10DFD500E5461F /* ListaComprasApp */,
 			);
-			name = MoviesAPI;
+			name = ListaComprasApp;
 			packageProductDependencies = (
 			);
-			productName = MoviesAPI;
-			productReference = FD42BE922D0CF507005D9769 /* MoviesAPI.app */;
+			productName = ListaComprasApp;
+			productReference = FD7240642D10DFD500E5461F /* ListaComprasApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD42BE8A2D0CF507005D9769 /* Project object */ = {
+		FD72405C2D10DFD500E5461F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FD42BE912D0CF507005D9769 = {
+					FD7240632D10DFD500E5461F = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = FD42BE8D2D0CF507005D9769 /* Build configuration list for PBXProject "MoviesAPI" */;
+			buildConfigurationList = FD72405F2D10DFD500E5461F /* Build configuration list for PBXProject "ListaComprasApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FD42BE892D0CF507005D9769;
+			mainGroup = FD72405B2D10DFD500E5461F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FD42BE932D0CF507005D9769 /* Products */;
+			productRefGroup = FD7240652D10DFD500E5461F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD42BE912D0CF507005D9769 /* MoviesAPI */,
+				FD7240632D10DFD500E5461F /* ListaComprasApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD42BE902D0CF507005D9769 /* Resources */ = {
+		FD7240622D10DFD500E5461F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD42BE8E2D0CF507005D9769 /* Sources */ = {
+		FD7240602D10DFD500E5461F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FD42BE9E2D0CF509005D9769 /* Debug */ = {
+		FD7240702D10DFD600E5461F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		FD42BE9F2D0CF509005D9769 /* Release */ = {
+		FD7240712D10DFD600E5461F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		FD42BEA12D0CF509005D9769 /* Debug */ = {
+		FD7240732D10DFD600E5461F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoviesAPI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListaComprasApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -260,13 +260,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctapiadev.MoviesAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.ListaComprasApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -274,14 +274,14 @@
 			};
 			name = Debug;
 		};
-		FD42BEA22D0CF509005D9769 /* Release */ = {
+		FD7240742D10DFD600E5461F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoviesAPI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListaComprasApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -290,13 +290,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctapiadev.MoviesAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.ListaComprasApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD42BE8D2D0CF507005D9769 /* Build configuration list for PBXProject "MoviesAPI" */ = {
+		FD72405F2D10DFD500E5461F /* Build configuration list for PBXProject "ListaComprasApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD42BE9E2D0CF509005D9769 /* Debug */,
-				FD42BE9F2D0CF509005D9769 /* Release */,
+				FD7240702D10DFD600E5461F /* Debug */,
+				FD7240712D10DFD600E5461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD42BEA02D0CF509005D9769 /* Build configuration list for PBXNativeTarget "MoviesAPI" */ = {
+		FD7240722D10DFD600E5461F /* Build configuration list for PBXNativeTarget "ListaComprasApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD42BEA12D0CF509005D9769 /* Debug */,
-				FD42BEA22D0CF509005D9769 /* Release */,
+				FD7240732D10DFD600E5461F /* Debug */,
+				FD7240742D10DFD600E5461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD42BE8A2D0CF507005D9769 /* Project object */;
+	rootObject = FD72405C2D10DFD500E5461F /* Project object */;
 }

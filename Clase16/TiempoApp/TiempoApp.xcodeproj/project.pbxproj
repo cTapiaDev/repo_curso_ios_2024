@@ -6,41 +6,59 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FD72409B2D10FED000E5461F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FD72409A2D10FED000E5461F /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		FD42BE922D0CF507005D9769 /* MoviesAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7240882D10FE3B00E5461F /* TiempoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiempoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FD72409D2D11056300E5461F /* Exceptions for "TiempoApp" folder in "TiempoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FD7240872D10FE3B00E5461F /* TiempoApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FD42BE942D0CF507005D9769 /* MoviesAPI */ = {
+		FD72408A2D10FE3B00E5461F /* TiempoApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoviesAPI;
+			exceptions = (
+				FD72409D2D11056300E5461F /* Exceptions for "TiempoApp" folder in "TiempoApp" target */,
+			);
+			path = TiempoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD42BE8F2D0CF507005D9769 /* Frameworks */ = {
+		FD7240852D10FE3B00E5461F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD72409B2D10FED000E5461F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD42BE892D0CF507005D9769 = {
+		FD72407F2D10FE3B00E5461F = {
 			isa = PBXGroup;
 			children = (
-				FD42BE942D0CF507005D9769 /* MoviesAPI */,
-				FD42BE932D0CF507005D9769 /* Products */,
+				FD72408A2D10FE3B00E5461F /* TiempoApp */,
+				FD7240892D10FE3B00E5461F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD42BE932D0CF507005D9769 /* Products */ = {
+		FD7240892D10FE3B00E5461F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD42BE922D0CF507005D9769 /* MoviesAPI.app */,
+				FD7240882D10FE3B00E5461F /* TiempoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +66,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD42BE912D0CF507005D9769 /* MoviesAPI */ = {
+		FD7240872D10FE3B00E5461F /* TiempoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD42BEA02D0CF509005D9769 /* Build configuration list for PBXNativeTarget "MoviesAPI" */;
+			buildConfigurationList = FD7240962D10FE3D00E5461F /* Build configuration list for PBXNativeTarget "TiempoApp" */;
 			buildPhases = (
-				FD42BE8E2D0CF507005D9769 /* Sources */,
-				FD42BE8F2D0CF507005D9769 /* Frameworks */,
-				FD42BE902D0CF507005D9769 /* Resources */,
+				FD7240842D10FE3B00E5461F /* Sources */,
+				FD7240852D10FE3B00E5461F /* Frameworks */,
+				FD7240862D10FE3B00E5461F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FD42BE942D0CF507005D9769 /* MoviesAPI */,
+				FD72408A2D10FE3B00E5461F /* TiempoApp */,
 			);
-			name = MoviesAPI;
+			name = TiempoApp;
 			packageProductDependencies = (
+				FD72409A2D10FED000E5461F /* Alamofire */,
 			);
-			productName = MoviesAPI;
-			productReference = FD42BE922D0CF507005D9769 /* MoviesAPI.app */;
+			productName = TiempoApp;
+			productReference = FD7240882D10FE3B00E5461F /* TiempoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD42BE8A2D0CF507005D9769 /* Project object */ = {
+		FD7240802D10FE3B00E5461F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FD42BE912D0CF507005D9769 = {
+					FD7240872D10FE3B00E5461F = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = FD42BE8D2D0CF507005D9769 /* Build configuration list for PBXProject "MoviesAPI" */;
+			buildConfigurationList = FD7240832D10FE3B00E5461F /* Build configuration list for PBXProject "TiempoApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FD42BE892D0CF507005D9769;
+			mainGroup = FD72407F2D10FE3B00E5461F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FD42BE932D0CF507005D9769 /* Products */;
+			productRefGroup = FD7240892D10FE3B00E5461F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD42BE912D0CF507005D9769 /* MoviesAPI */,
+				FD7240872D10FE3B00E5461F /* TiempoApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD42BE902D0CF507005D9769 /* Resources */ = {
+		FD7240862D10FE3B00E5461F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +137,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD42BE8E2D0CF507005D9769 /* Sources */ = {
+		FD7240842D10FE3B00E5461F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +147,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FD42BE9E2D0CF509005D9769 /* Debug */ = {
+		FD7240942D10FE3D00E5461F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		FD42BE9F2D0CF509005D9769 /* Release */ = {
+		FD7240952D10FE3D00E5461F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,29 +266,30 @@
 			};
 			name = Release;
 		};
-		FD42BEA12D0CF509005D9769 /* Debug */ = {
+		FD7240972D10FE3D00E5461F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoviesAPI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TiempoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiempoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctapiadev.MoviesAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.TiempoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -274,29 +297,30 @@
 			};
 			name = Debug;
 		};
-		FD42BEA22D0CF509005D9769 /* Release */ = {
+		FD7240982D10FE3D00E5461F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoviesAPI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TiempoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiempoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctapiadev.MoviesAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.TiempoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,25 +331,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD42BE8D2D0CF507005D9769 /* Build configuration list for PBXProject "MoviesAPI" */ = {
+		FD7240832D10FE3B00E5461F /* Build configuration list for PBXProject "TiempoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD42BE9E2D0CF509005D9769 /* Debug */,
-				FD42BE9F2D0CF509005D9769 /* Release */,
+				FD7240942D10FE3D00E5461F /* Debug */,
+				FD7240952D10FE3D00E5461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD42BEA02D0CF509005D9769 /* Build configuration list for PBXNativeTarget "MoviesAPI" */ = {
+		FD7240962D10FE3D00E5461F /* Build configuration list for PBXNativeTarget "TiempoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD42BEA12D0CF509005D9769 /* Debug */,
-				FD42BEA22D0CF509005D9769 /* Release */,
+				FD7240972D10FE3D00E5461F /* Debug */,
+				FD7240982D10FE3D00E5461F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD72409A2D10FED000E5461F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FD42BE8A2D0CF507005D9769 /* Project object */;
+	rootObject = FD7240802D10FE3B00E5461F /* Project object */;
 }
