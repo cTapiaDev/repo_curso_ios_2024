@@ -6,59 +6,66 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		FD72409B2D10FED000E5461F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FD72409A2D10FED000E5461F /* Alamofire */; };
-/* End PBXBuildFile section */
+/* Begin PBXContainerItemProxy section */
+		FD0F72582D12435C006D2250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0F722A2D123A42006D2250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0F72312D123A42006D2250;
+			remoteInfo = Notas;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD7240882D10FE3B00E5461F /* TiempoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiempoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0F72322D123A42006D2250 /* Notas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0F72542D12435C006D2250 /* NotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FD9C23462D1231C300031D8E /* Exceptions for "TiempoApp" folder in "TiempoApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = FD7240872D10FE3B00E5461F /* TiempoApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FD9C23402D1231C300031D8E /* TiempoApp */ = {
+		FD0F72342D123A42006D2250 /* Notas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				FD9C23462D1231C300031D8E /* Exceptions for "TiempoApp" folder in "TiempoApp" target */,
-			);
-			path = TiempoApp;
+			path = Notas;
+			sourceTree = "<group>";
+		};
+		FD0F72552D12435C006D2250 /* NotasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NotasTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD7240852D10FE3B00E5461F /* Frameworks */ = {
+		FD0F722F2D123A42006D2250 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD72409B2D10FED000E5461F /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0F72512D12435C006D2250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD72407F2D10FE3B00E5461F = {
+		FD0F72292D123A42006D2250 = {
 			isa = PBXGroup;
 			children = (
-				FD9C23402D1231C300031D8E /* TiempoApp */,
-				FD7240892D10FE3B00E5461F /* Products */,
+				FD0F72342D123A42006D2250 /* Notas */,
+				FD0F72552D12435C006D2250 /* NotasTests */,
+				FD0F72332D123A42006D2250 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD7240892D10FE3B00E5461F /* Products */ = {
+		FD0F72332D123A42006D2250 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD7240882D10FE3B00E5461F /* TiempoApp.app */,
+				FD0F72322D123A42006D2250 /* Notas.app */,
+				FD0F72542D12435C006D2250 /* NotasTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,68 +73,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD7240872D10FE3B00E5461F /* TiempoApp */ = {
+		FD0F72312D123A42006D2250 /* Notas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD7240962D10FE3D00E5461F /* Build configuration list for PBXNativeTarget "TiempoApp" */;
+			buildConfigurationList = FD0F72402D123A44006D2250 /* Build configuration list for PBXNativeTarget "Notas" */;
 			buildPhases = (
-				FD7240842D10FE3B00E5461F /* Sources */,
-				FD7240852D10FE3B00E5461F /* Frameworks */,
-				FD7240862D10FE3B00E5461F /* Resources */,
+				FD0F722E2D123A42006D2250 /* Sources */,
+				FD0F722F2D123A42006D2250 /* Frameworks */,
+				FD0F72302D123A42006D2250 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FD9C23402D1231C300031D8E /* TiempoApp */,
+				FD0F72342D123A42006D2250 /* Notas */,
 			);
-			name = TiempoApp;
+			name = Notas;
 			packageProductDependencies = (
-				FD72409A2D10FED000E5461F /* Alamofire */,
 			);
-			productName = TiempoApp;
-			productReference = FD7240882D10FE3B00E5461F /* TiempoApp.app */;
+			productName = Notas;
+			productReference = FD0F72322D123A42006D2250 /* Notas.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FD0F72532D12435C006D2250 /* NotasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0F725A2D12435C006D2250 /* Build configuration list for PBXNativeTarget "NotasTests" */;
+			buildPhases = (
+				FD0F72502D12435C006D2250 /* Sources */,
+				FD0F72512D12435C006D2250 /* Frameworks */,
+				FD0F72522D12435C006D2250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0F72592D12435C006D2250 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FD0F72552D12435C006D2250 /* NotasTests */,
+			);
+			name = NotasTests;
+			packageProductDependencies = (
+			);
+			productName = NotasTests;
+			productReference = FD0F72542D12435C006D2250 /* NotasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD7240802D10FE3B00E5461F /* Project object */ = {
+		FD0F722A2D123A42006D2250 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FD7240872D10FE3B00E5461F = {
+					FD0F72312D123A42006D2250 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					FD0F72532D12435C006D2250 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FD0F72312D123A42006D2250;
 					};
 				};
 			};
-			buildConfigurationList = FD7240832D10FE3B00E5461F /* Build configuration list for PBXProject "TiempoApp" */;
+			buildConfigurationList = FD0F722D2D123A42006D2250 /* Build configuration list for PBXProject "Notas" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FD72407F2D10FE3B00E5461F;
+			mainGroup = FD0F72292D123A42006D2250;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FD7240892D10FE3B00E5461F /* Products */;
+			productRefGroup = FD0F72332D123A42006D2250 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD7240872D10FE3B00E5461F /* TiempoApp */,
+				FD0F72312D123A42006D2250 /* Notas */,
+				FD0F72532D12435C006D2250 /* NotasTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD7240862D10FE3B00E5461F /* Resources */ = {
+		FD0F72302D123A42006D2250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0F72522D12435C006D2250 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,7 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD7240842D10FE3B00E5461F /* Sources */ = {
+		FD0F722E2D123A42006D2250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0F72502D12435C006D2250 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,8 +191,16 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FD0F72592D12435C006D2250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0F72312D123A42006D2250 /* Notas */;
+			targetProxy = FD0F72582D12435C006D2250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		FD7240942D10FE3D00E5461F /* Debug */ = {
+		FD0F723E2D123A44006D2250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		FD7240952D10FE3D00E5461F /* Release */ = {
+		FD0F723F2D123A44006D2250 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,18 +319,17 @@
 			};
 			name = Release;
 		};
-		FD7240972D10FE3D00E5461F /* Debug */ = {
+		FD0F72412D123A44006D2250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TiempoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Notas/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TiempoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.TiempoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.Notas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,18 +349,17 @@
 			};
 			name = Debug;
 		};
-		FD7240982D10FE3D00E5461F /* Release */ = {
+		FD0F72422D123A44006D2250 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TiempoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Notas/Preview Content\"";
 				DEVELOPMENT_TEAM = 7H42D2RGP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TiempoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.TiempoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.Notas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,47 +379,75 @@
 			};
 			name = Release;
 		};
+		FD0F725B2D12435C006D2250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H42D2RGP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Debug;
+		};
+		FD0F725C2D12435C006D2250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H42D2RGP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.curso.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD7240832D10FE3B00E5461F /* Build configuration list for PBXProject "TiempoApp" */ = {
+		FD0F722D2D123A42006D2250 /* Build configuration list for PBXProject "Notas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD7240942D10FE3D00E5461F /* Debug */,
-				FD7240952D10FE3D00E5461F /* Release */,
+				FD0F723E2D123A44006D2250 /* Debug */,
+				FD0F723F2D123A44006D2250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD7240962D10FE3D00E5461F /* Build configuration list for PBXNativeTarget "TiempoApp" */ = {
+		FD0F72402D123A44006D2250 /* Build configuration list for PBXNativeTarget "Notas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD7240972D10FE3D00E5461F /* Debug */,
-				FD7240982D10FE3D00E5461F /* Release */,
+				FD0F72412D123A44006D2250 /* Debug */,
+				FD0F72422D123A44006D2250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0F725A2D12435C006D2250 /* Build configuration list for PBXNativeTarget "NotasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0F725B2D12435C006D2250 /* Debug */,
+				FD0F725C2D12435C006D2250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = exactVersion;
-				version = 5.8.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FD72409A2D10FED000E5461F /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FD7240992D10FED000E5461F /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FD7240802D10FE3B00E5461F /* Project object */;
+	rootObject = FD0F722A2D123A42006D2250 /* Project object */;
 }
