@@ -49,5 +49,21 @@ final class ViewModelIntegrationTest: XCTestCase {
         XCTAssertEqual(sut.notes.count, 2, "Deberían existir solo dos notas en la DB")
     }
     
+    func testFetchAllNotes() {
+        sut.createNoteWith(title: "Buscar 1", text: "nueva nota encontrada 1")
+        sut.createNoteWith(title: "Buscar 2", text: "nueva nota encontrada 2")
+        
+        let note = sut.notes[0]
+        let note2 = sut.notes[1]
+        
+        XCTAssertEqual(sut.notes.count, 2, "Deberiamos tener dos notas en la base de datos")
+        
+        XCTAssertEqual(note.title, "Buscar 1")
+        XCTAssertEqual(note.text, "nueva nota encontrada 1")
+        
+        XCTAssertEqual(note2.title, "Buscar 2")
+        XCTAssertEqual(note2.text, "nueva nota encontrada 2")
+    }
+    
     
 }
