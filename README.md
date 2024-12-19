@@ -14,3 +14,5 @@
 - [Clase 14 - API](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase14)
 - [Clase 15 - MovieApp](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase15/MoviesAPI)
 - [Clase 16 - SwiftData & Alamofire](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase16)
+- [Clase 17 - NotasApp](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase17/Notas)
+- [Clase 18 - TestUnitarios, TestUI & TestIntegrador](https://github.com/cTapiaDev/repo_curso_ios_2024/tree/main/Clase17/Notas)
